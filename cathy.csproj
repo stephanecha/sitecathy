@@ -1,0 +1,248 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B897627-582C-45F6-967D-ACA02809774D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cathy</RootNamespace>
+    <AssemblyName>cathy</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\Abbigliamento-lavanda-sportivo-Elena-Colombo-334x350.jpeg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\ac0e530387cb951f95ab08054a758223ec0e9c0b-350x350.jpg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\Arancio-energia-nel-guardaroba-copertina-1024x614-350x350.jpg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\bootstrap-responsive.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\business_round1.png" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\circle.png" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\Copertina-terra-guardiano-1024x614-350x350.jpg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\d0f75144370414913a858ff31f4372d8-350x350.jpg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\easy-social-share-buttons.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\EC-business.jpg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\flick.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\font-awesome.min.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\form-themes.min.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\front.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\guardablog_600.png" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\hoverex-all.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\idangerous.swiper.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\IMG_8824.jpg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.easy-pie-chart.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.fancybox.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\js_composer.min.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\layerslider.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\linecon.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\LOGO-EC.png" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\othercss\animate.min.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\othercss\bootstrap.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\othercss\flexslider.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\othercss\shortcodes.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\othercss\style.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\persona_round2.png" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\photo-1516274626895-055a99214f08-350x350.jpeg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\pillole2.png" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\regali_round1.png" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\skin.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\slide.jpg" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\steadysets.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\style.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\styles.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\vector-icons.css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\woman-15696132.jpg" />
+    <Content Include="consulente-di-immagine-style-coach-formatrice.html" />
+    <Content Include="home.html" />
+    <Content Include="Image Slider w_o jQuery.html" />
+    <Content Include="Image Slider w_o jQuery_files\enter453797_1280%281%29.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\enter453797_1280.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\IMG_5126.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\linen542866_1280%281%29.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\linen542866_1280.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\piano233684_1280%281%29.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\piano233684_1280.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\preview.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\stylesslider.css" />
+    <Content Include="Image Slider w_o jQuery_files\stylesslider.min.css" />
+    <Content Include="Image Slider w_o jQuery_files\thumb%281%29.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\thumb%282%29.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\thumb%283%29.jpg" />
+    <Content Include="Image Slider w_o jQuery_files\thumb.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\analytics.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\animations.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\background-check.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\bootstrap.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\classie.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\comment-reply.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\core.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\css" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\css%281%29" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\css%282%29" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\datepicker.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\forms-api.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\front.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\greensock.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\idangerous.swiper.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\imagesloaded.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\isotope.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery-migrate.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.appear.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.carouFredSel-6.1.0-packed.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.countdown.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.easing.1.1.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.easing.1.3.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.easy-pie-chart.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.fancybox-media.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.fancybox.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.flexslider-min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.form.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.fullPage.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.hoverex.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.infinitescroll.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.mixitup.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.mobilemenu.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.onepage.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.parallax.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.placeholder.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\jquery.slicknav.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\js_composer_front.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\layerslider.kreaturamedia.jquery.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\layerslider.transitions.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\mailchimp.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\main.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\masonry.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\modernizr.custom.66803.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\odometer.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\picturefill.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\post-like.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\saved_resource" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\scrollTo.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\select2.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\skrollr.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\smoothscroll.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\tooltip.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\waypoints.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\wp-embed.min.js.téléchargement" />
+    <Content Include="Consulente d%27immagine _ EC IMMAGINE_files\wp-emoji-release.min.js.téléchargement" />
+    <Content Include="Image Slider w_o jQuery_files\bf5.js.téléchargement" />
+    <Content Include="Image Slider w_o jQuery_files\ga.js.téléchargement" />
+    <Content Include="Image Slider w_o jQuery_files\gestures.js.téléchargement" />
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\cathy.csprojAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56055</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44315/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
