@@ -1,7 +1,7 @@
 
 /* ------------- General ------------- */
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-@font-face {
+/*@font-face {
 	font-family: "cs-ctrl-dodgy";
 	src: url("cs-ctrl-dodgy.eot");
 	src: url("cs-ctrl-dodgy.eot#iefix") format("embedded-opentype"),
@@ -10,7 +10,7 @@
 			url("cs-ctrl-dodgy.svg#dodgy") format("svg");
 	font-weight: normal;
 	font-style: normal;
-}
+}*/
 
 .csslider1 {
   display: inline-block;

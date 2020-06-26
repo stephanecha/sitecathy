@@ -117,7 +117,7 @@ $(document).ready(function () {
 
 	codelessMobileMenu();
 
-	codelessOverallButton();
+	//codelessOverallButton();
 
 	if($('body').hasClass('header_5'))
 		codelessMenuOverlay(); 
@@ -1743,7 +1743,7 @@ function codelessTabsactive(){
 /* ----------------------------- End Tabs -------------------------------- */
 
 /* ----------------------------- Buttons Style --------------------------- */
-
+/*
 function codelessOverallButton(){
 	"use strict";
 	var extra = codeless_global.button_style;
@@ -1775,7 +1775,7 @@ function codelessOverallButton(){
 		$('.added_to_cart').addClass('btn-bt').addClass(extra);
 	});
 }
-
+*/
 /* ----------------------------- End Buttons Style ----------------------- */
 
 /* ----------------------------- Header5 Overlay ------------------------- */
